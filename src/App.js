@@ -22,7 +22,7 @@ onClick = button => {
            
             firstNumber: this.state.result,
             secondNumber:"",
-            result:this.state.result+button
+            result:this.state.result+" "+button+" "
             
         }, () => {
             console.log(this.state.firstNumber, 'fistNumber');
