@@ -55,8 +55,8 @@ calculate = () => {
     if(this.state.firstNumber!==""){
         console.log("firstNumber",this.state.firstNumber);
         console.log("seconde Number",this.state.secondNumber);
-      let  first=this.state.firstNumber;
-      let  secondNumber=this.state.secondNumber;
+       let  first=this.state.firstNumber;
+       let  secondNumber=this.state.secondNumber;
        let temp=(first*secondNumber)/100;
        try{
            this.setState({
