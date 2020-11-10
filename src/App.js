@@ -80,7 +80,9 @@ calculate = () => {
 
 reset = () => {
   this.setState({
-      result: ""
+      result: "",
+      firstNumber:"",
+      secondNumber:""
   })
 };
 
@@ -101,21 +103,7 @@ render() {
         </div>
     );
 }
-//   state = {
-//     result:0
-//   }
 
-//   render(){
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <h1>Simple Calculator</h1>
-//         <Buttons />
-        
-//       </header>
-//     </div>
-//   );
-// }
 }
 
 export default App;
