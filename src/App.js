@@ -53,16 +53,17 @@ onClick = button => {
 calculate = () => {
 
     if(this.state.firstNumber!==""){
+    try{
        let  first=this.state.firstNumber;
        let  secondNumber=this.state.secondNumber;
        let temp=(eval(first)*eval(secondNumber))/100;
-       try{
+       
            this.setState({
                result:temp
            })
        }catch(e){
            this.setState({
-               result:"error"
+               result:"can't do operation with bracket"
            })
        }
     }else{

@@ -12,13 +12,13 @@ body{ background-color:rgb(59, 9, 240); color: rgb(241, 235, 235)}
 }
 
 .result p {
-  font-size: 40px;
+  font-size: 20px;
   margin: 5px;
 
 }
 
 .calculator-body {
-  max-width: 300px;
+  max-width: 80vh;
   margin: auto;
 }
 
