@@ -18,15 +18,19 @@ onClick = button => {
 //second number is not setting to empty
 
     if(button==="percOf"){
-        this.setState({
+        this.setState({ 
+           
+            firstNumber: this.state.result,
             secondNumber:"",
-            firstNumber:this.state.result
+            result:this.state.result+button
             
-        })
-        
+        }, () => {
+            console.log(this.state.firstNumber, 'fistNumber');
+            console.log(this.state.secondNumber,'secondNumber')
+          });         
     }
 
-  if(button === "="){
+  else if(button === "="){
     
       this.calculate();
   }
