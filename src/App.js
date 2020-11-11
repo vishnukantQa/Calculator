@@ -17,7 +17,7 @@ class App extends Component {
 onClick = button => {
 //second number is not setting to empty
 
-    if(button==="percOf"){
+    if(button==="% Of"){
         this.setState({ 
            
             firstNumber: this.state.result,

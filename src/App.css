@@ -31,3 +31,6 @@ button {
   height: 10vh;
   font-size: 2vw;
 }
+.topButton{
+  width: 33.3% !important;
+}

@@ -4,10 +4,11 @@ class Buttons extends Component{
     render() {
         return (
             <div className="button">
-            <button name="(" onClick={e => this.props.onClick(e.target.name)}>(</button>
-            <button name="%" onClick={e => this.props.onClick(e.target.name)}>%</button>
-            <button name=")" onClick={e => this.props.onClick(e.target.name)}>)</button>
-            <button name="C" onClick={e => this.props.onClick(e.target.name)}>C</button><br/>
+             <button className="topButton" name="% Of" onClick={e => this.props.onClick(e.target.name)}>% of</button>
+            
+            <button className="topButton" name="%" onClick={e => this.props.onClick(e.target.name)}>%</button>
+            
+            <button className="topButton" name="C" onClick={e => this.props.onClick(e.target.name)}>C</button><br/>
 
 
             <button name="1" onClick={e => this.props.onClick(e.target.name)}>1</button>
@@ -31,7 +32,7 @@ class Buttons extends Component{
             <button name="0" onClick={e => this.props.onClick(e.target.name)}>0</button>
             <button name="=" onClick={e => this.props.onClick(e.target.name)}>=</button>
             <button name="/" onClick={e => this.props.onClick(e.target.name)}>÷</button>
-            <button name="percOf" onClick={e => this.props.onClick(e.target.name)}>percOf</button>
+           
             
             <br/>
         </div>
